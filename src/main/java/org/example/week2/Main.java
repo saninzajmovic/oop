@@ -30,6 +30,28 @@ public class Main {
          */
 
         //TASK 1
-        
+            /*
+    public static void main(String[] args) {
+        Random rand = new Random();
+        Scanner input = new Scanner(System.in);
+        int randomNumber=rand.nextInt(101);
+        int guess, numberOfGuesses = 0;
+        //System.out.println(randomNumber);
+        System.out.print("Guess the number : ");
+        guess = input.nextInt();
+        do {
+            numberOfGuesses++;
+            if(guess > randomNumber) {
+                System.out.println("Lower!  -  This is your " + numberOfGuesses + ". guess !");
+            } else {
+                System.out.println("Higher!  -  This is your " + numberOfGuesses + ". guess !");
+            }
+            guess = input.nextInt();
+        }
+        while(guess != randomNumber);
+        System.out.println("You are correct!\nYou made " + numberOfGuesses + " guesses !");
+    }
+
+     */
     }
 }
